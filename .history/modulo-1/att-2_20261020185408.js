@@ -1,0 +1,4 @@
+
+function filterLot(list, maxSize) {
+    
+}

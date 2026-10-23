@@ -1,0 +1,2 @@
+let batchTotal = 10;
+

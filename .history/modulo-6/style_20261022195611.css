@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#btn-alert {
+    dis
+    background-color: yellow;
+    color: black;
+    padding: 1rem;
+}

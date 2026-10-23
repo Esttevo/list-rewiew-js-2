@@ -1,0 +1,13 @@
+body {
+    justify-content: center;
+    justify-items: center;
+}
+
+button {
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: grey;
+    justify-self: center;
+}

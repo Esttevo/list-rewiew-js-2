@@ -1,0 +1,11 @@
+const balanca = {
+    currentWeight:0,
+    maxWeight:5000,
+    pesar(mass) {
+        this.currentWeight = mass;
+    }
+    ,
+    zerar() {
+
+    }
+}

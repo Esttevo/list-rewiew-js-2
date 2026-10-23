@@ -1,0 +1,24 @@
+// Crie um objeto sensor com as propriedades idSensor, leituraAtual e status ('Normal' ou 'Alerta'). Adicione o método 
+// atualizarLeitura(novaLeitura) que altera a leitura atual e define o status como 'Alerta' caso o valor supere 75 Hz. 
+
+const sensor = {
+    idSensor:1,
+    leituraAtual:null,
+    status:"Normal",
+
+    atualizarLeitura(novaLeitura) {
+        this.leituraAtual = novaLeitura;
+
+        if(novaLeitura > 75) {
+            this.status = "Alerta"
+        } else {
+            this.status = "Normal"
+        }
+    }
+}
+
+console.log(sensor);
+
+sensor.atualizarLeitura(50);
+console.log(sensor);
+

@@ -1,0 +1,13 @@
+// Crie um objeto roboIndustrial com as propriedades modelo e painelControle. A propriedade painelControle deve 
+// ser um objeto contendo versaoFirmware e ip. Modifique o valor da versão do firmware e imprima o objeto 
+// completo atualizado. 
+
+const roboIndustrial = {
+    modelo:"123_WET!",
+    painelControle: {
+        versaoFirmware:null,
+        ip:"10.123.45.91"
+    }
+}
+
+roboIndustrial.painelControle.versaoFirmware = "latest version 4.5.2"

@@ -1,0 +1,3 @@
+const operador = {
+    nome:"chrsita"
+}

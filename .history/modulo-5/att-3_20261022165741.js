@@ -1,0 +1,13 @@
+// Crie dois objetos: telemetriaMecanica (com pressao e rotacaoRPM) e telemetriaEletrica (com correnteAmpere e 
+// tensaoVolts). Utilize o operador de espalhamento para criar o objeto diagnosticoCompleto unindo todas as 
+// propriedades. Imprima o resultado.
+
+const telemetriaMecanica = {
+    pressao:120,
+    rotacaoRPM:3500
+}
+
+const telemetriaEletrica = {
+    correnteAmpere:12,
+    
+}
